@@ -1,0 +1,7 @@
+{
+  "singleQuote": true,
+  "trailingComma": "all",
+  "[javascript]": {
+    "editor.formatOnSave": false
+  }
+}
