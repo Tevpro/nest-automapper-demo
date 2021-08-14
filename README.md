@@ -9,14 +9,19 @@ This implementation shows how [Automapper](https://automapperts.netlify.app/) ca
 Required:
 
 ```bash
-npm install @automapper/core @automapper/classes @automapper/nestjs
+npm install @automapper/{core, classes, nestjs}, class-transformer class-validator
+npm install --save-dev @automapper/types
 ```
 
-Optional:
+## StackBlitz
 
+If you are running this on StackBlitz ([https://stackblitz.com/github/Tevpro/nest-automapper-demo](https://stackblitz.com/github/Tevpro/nest-automapper-demo)) you will need to execute the following commands and access the URL below to test.
+
+```bash
+nest start
 ```
-npm install class-transformer class-validator
-```
+
+Next append /api to the end of the url inside the StackBlitz browser panel to access swagger.
 
 ## Links
 

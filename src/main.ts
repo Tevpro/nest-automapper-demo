@@ -4,10 +4,11 @@ import { AppModule } from './app.module';
 
 function setupSwagger(app) {
   const config = new DocumentBuilder()
-    .setTitle('Cats example')
-    .setDescription('The cats API description')
+    .setTitle('Automapper Reference Implementation')
+    .setDescription(
+      'An api that lets the user interact with a api that utilizes automapper.',
+    )
     .setVersion('1.0')
-    .addTag('cats')
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('api', app, document);

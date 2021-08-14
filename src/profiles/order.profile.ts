@@ -17,7 +17,7 @@ export class OrderProfile extends AutomapperProfile {
         .forMember(
           (dest) => dest.drink,
           mapFrom((src) => {
-            switch (src.drink.toLowerCase()) {
+            switch (src.drink?.toLowerCase()) {
               case 'coke':
                 return Drink.COKE;
               case 'margarita':
