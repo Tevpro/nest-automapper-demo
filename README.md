@@ -25,5 +25,6 @@ Next append /api to the end of the url inside the StackBlitz browser panel to ac
 
 ## Links
 
+- Blog - [Understanding AutoMapper and it's use in a NestJS application](https://tevpro.com/blog/nestjs-and-automapper/)
 - Website - [Tevpro - https://tevpro.com](https://tevpro.com)
 - Author - [Keith Kikta](https://www.linkedin.com/in/keith-kikta-9621621a) [Blog](https://tevpro.com/author/keith/)
